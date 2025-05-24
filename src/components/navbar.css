@@ -1,0 +1,91 @@
+.hover-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    width: 200px;
+    z-index: 101;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: -200px;
+    /* start off-screen */
+    height: 100%;
+    background-color: rgb(93, 93, 203);
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    display: flex;
+    /* always rendered */
+    transition: right 0.3s ease-in-out;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px 0 0 20px;
+    background: linear-gradient(rgba(149, 116, 51, 0.4), rgba(247, 235, 211, 0.4)), url('../assets/white-paper-texture.jpg');
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.navbar__links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+
+}
+
+.navbar__links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    border: 2px solid rgba(0, 0, 0, 0);
+
+}
+
+.navbar__links a:hover {
+    background-color: aliceblue;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    scale: 1.05;
+}
+
+.show {
+    right: 0;
+    /* slide in */
+    z-index: 102;
+}
+
+.nav-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.indicator {
+    position: relative;
+    font-size: 2rem;
+    padding: 0.5em;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.design {
+    width: 10%;
+    background-color: black;
+    height: 100%;
+}

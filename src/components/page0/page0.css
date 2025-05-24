@@ -1,5 +1,4 @@
 .page0{
-    background-color: aliceblue;
     height: 100vh;
 }
 
@@ -23,4 +22,21 @@
     100% {
         transform: translateX(0);
     }
+}
+
+.intro-text {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    transform: translateX(-50%);
+    text-align: center;
+    border: 2px solid black;
+    width:40vw;
+    height: 40vh;
+    border-radius: 20px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

@@ -29,7 +29,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div className="indicator">
-                <div className="indicator__dot"> ▶</div>
+                <div className="indicator__dot"> ▶ navbar</div>
             </div>
         </div>
     );

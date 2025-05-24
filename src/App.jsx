@@ -40,9 +40,9 @@ useEffect(() => {
   return (
     <main>
       <Navbar />
-      <Page0 />
-      <Page1 />
-      <Page2 />
+      <div id="page0"></div><Page0 />
+      <div id="page1"></div><Page1 />
+      <div id="page2"></div><Page2 />
     </main>
   )
 }

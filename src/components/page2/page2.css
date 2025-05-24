@@ -1,3 +1,19 @@
 .page2{
     height: 100vh;
 }
+
+.page2-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #8e3a3a;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}

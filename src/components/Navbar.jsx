@@ -18,10 +18,10 @@ export default function Navbar() {
             <div className="navbar">
                 <div className="navbar__links">
                     <div className="logo-nav">SANGAM LOGO</div>
-                    <a href="#home">Editor's Note</a>
-                    <a href="#about">Photographs</a>
-                    <a href="#services">Latest Edition</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#page1">Editor's Note</a>
+                    <a href="#page2">Photographs</a>
+                    <a href="#page3">Latest Edition</a>
+                    <a href="#page4">Contact</a>
                     <a href="#Achievement">Achievement</a>
                     <a href="#Team">Team</a>
                     <a href="#editor-stories">editor's stories</a>

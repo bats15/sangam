@@ -8,8 +8,6 @@ export default function Page0() {
         <main className="page0">
             <Header />
             <div className="page0-circle-bg">jbjb</div>
-            <h1>Page 0</h1>
-            <p>This is the first page of the application.</p>
             <IntroText className="intro-text" />
         </main>
     );

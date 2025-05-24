@@ -1,42 +1,53 @@
-.page0{
-    height: 100vh;
-}
-
-.page0-circle-bg{
-    position: absolute;
-    top: 20%;
-    left: -5%;
-    width: 40vw;
-    height: 40vw;
-    border-radius: 50%;
-    border: 4px solid black;
-    background: url('../../assets/campus-img-02.jpg');
-    background-size: cover;
-    animation: slide-in 1s forwards;
-}
-
-@keyframes slide-in {
-    0% {
-        transform: translateX(-100%);
+    .page0{
+        height: 100vh;
     }
-    100% {
-        transform: translateX(0);
-    }
-}
 
-.intro-text {
-    position: absolute;
-    top: 30%;
-    left: 65%;
-    transform: translateX(-50%);
-    text-align: center;
-    border: 2px solid black;
-    width:40vw;
-    height: 40vh;
-    border-radius: 20px;
-    background-color: beige;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+    .page0-circle-bg{
+        position: absolute;
+        top: 20%;
+        left: -5%;
+        width: 40vw;
+        height: 40vw;
+        border-radius: 50%;
+        border: 4px solid black;
+        background: url('../../../public/assets/campus-img-02.jpg');
+        background-size: cover;
+        animation: slide-in 1.5s forwards;
+    }
+
+    @keyframes slide-in {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .intro-text {
+        position: absolute;
+        top: 30%;
+        transform: translateX(-50%);
+        text-align: center;
+        border: 2px solid black;
+        width:40vw;
+        height: 40vh;
+        border-radius: 20px;
+        background-color: #27548ad7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        animation: slide-in-text 1.5s forwards;
+    }
+
+    @keyframes slide-in-text {
+        0% {
+            right: -300%;
+        }
+        100% {
+            right: 0%;
+        }
+    }
+
+    

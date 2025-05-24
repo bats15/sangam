@@ -1,3 +1,9 @@
 main{
     background-color: aliceblue;
 }
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

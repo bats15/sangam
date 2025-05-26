@@ -15,7 +15,7 @@ function App() {
 useEffect(() => {
   const timer = setTimeout(() => {
     setLoading(false);  // stop loading after 2s
-  }, 8000);
+  }, 4000);
 
   return () => clearTimeout(timer);
 }, []);
@@ -25,7 +25,9 @@ useEffect(() => {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      height: '100vh'
+      height: '100vh',
+      width: '100vw',
+      scale: '0.5',
     }}>
       <ClimbingBoxLoader
         color="#DDA853"

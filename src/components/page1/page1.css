@@ -1,9 +1,7 @@
 .page1{
     height: 100vh;
-    background-color: black;
+    background-color: #282c34;
     width: 100%;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0;padding: 0;
 }

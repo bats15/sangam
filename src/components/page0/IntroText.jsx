@@ -4,8 +4,8 @@ import "./page0.css";
 export default function IntroText(props) {
     return (
         <div className={props.className}>
-            <h2>Welcome to Page 0</h2>
-            <p>This is the introductory text for the first page.</p>
+            <h2>WELCOME TO OUR DIGITAL WORLD</h2>
+            <p>The official voice of IIT Jammu — where ideas converge, stories inspire, and student creativity takes center stage.</p>
         </div>
     );
 }

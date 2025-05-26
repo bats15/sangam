@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./navbar.css";
 
 export default function Navbar() {
-    const [clicked, setClicked] = useState(false);
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
     useEffect(() => {
@@ -12,16 +11,13 @@ export default function Navbar() {
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
     }, []);
-
     const handleClick = () => {
-        setClicked(prev => {
-            const newState = !prev;
-            if (newState) hovered();
-            else unhovered();
-            return newState;
-        });
+        if (document.querySelector(".navbar")?.classList.contains("show")) {
+            unhovered();
+        } else {
+            hovered();
+        }
     };
-
     const hovered = () => {
         document.querySelector(".navbar")?.classList.add("show");
     };

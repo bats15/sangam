@@ -9,10 +9,10 @@ const images = [
   "/assets/photographs/photo5.jpg",
   "/assets/photographs/photo6.jpg",
   "/assets/photographs/photo7.jpg",
-    "/assets/photographs/photo8.jpg",
-    "/assets/photographs/photo9.jpg",
-    "/assets/photographs/photo10.jpg",
-    "/assets/photographs/photo11.jpg",
+  "/assets/photographs/photo8.jpg",
+  "/assets/photographs/photo9.jpg",
+  "/assets/photographs/photo10.jpg",
+  "/assets/photographs/photo11.jpg",
 ];
 
 export default function Photographs() {

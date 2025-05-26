@@ -50,7 +50,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div className="indicator">
-                <img src="../../public/assets/menu.png" onClick={isMobile ? handleClick : undefined} alt="menu" />
+                <img src="../../assets/menu.png" onClick={isMobile ? handleClick : undefined} alt="" />
             </div>
         </div>
     );

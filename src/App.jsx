@@ -4,6 +4,8 @@ import Page1 from './components/page1/Page1'
 import Page2 from './components/page2/Page2'
 import Page0 from './components/page0/Page0'
 import Page3 from './components/page3/Page3'
+import Page4 from './components/page4/Page4'
+
 import ClimbingBoxLoader from 'react-spinners/ClimbingBoxLoader';
 
 import './App.css'
@@ -47,6 +49,7 @@ useEffect(() => {
       <div id="page1"></div><Page1 />
       <div id="page2"></div><Page2 />
       <div id="page3"></div><Page3 />
+      <div id="page4"></div><Page4 />
     </main>
   )
 }

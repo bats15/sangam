@@ -3,7 +3,10 @@
     height: 100vh;
     color: black;
     padding-top: 7em;
-    background-color: rgb(30, 35, 45);
+    background-blend-mode: overlay;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .button-section{
@@ -25,6 +28,7 @@
     font-weight: 600;
     height: 33%;
     scale: 0.8;
+    border: 2px solid brown;
 }
 
 .button-section button:hover{
@@ -34,4 +38,22 @@
     font-weight: 600;
     scale: 0.83;
     font-size: 2.1rem;
+    border: 2px solid brown;
+}
+
+.icon1{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    background: none;
+    box-shadow: none;
+
+}
+
+.icon1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
